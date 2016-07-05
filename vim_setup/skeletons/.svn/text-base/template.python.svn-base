@@ -1,0 +1,18 @@
+#!/usr/bin/python
+
+# Copyright (C)  %%YEAR%% Zhang Initative Research Unit
+# %%FILENAME%% -description
+
+# system 
+import sys, os
+
+# biopython
+
+# user-defined modules
+
+
+if __name__=="__main__":
+
+  if len(sys.argv) != 4:
+    print "Error: please check argument list."
+    sys.exit(0)

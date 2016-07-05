@@ -1,0 +1,22 @@
+if has("autocmd")
+augroup autoinsert
+  au!
+  autocmd BufNewFile *.c call s:Template("c")
+  autocmd BufNewFile Makefile  call s:Template("make")
+  autocmd BufNewFile Makefile  call s:Template("make-simple")
+  autocmd BufNewFile *.py call s:Template("python")
+augroup END
+endif
+
+
+function s:Template(argument)
+    " The Makefile variants
+    if (a:argument == "python")
+      0r ~/.vim/skeletons/template.python
+      set ft=python
+    endif
+    silent %!~/.vim/do_header %
+
+endfunction
+
+command! -nargs=1 Template call s:Template(<f-args>) 

@@ -1,0 +1,22 @@
+#!/usr/bin/python
+
+# Copyright (C)  %%YEAR%% Structural Bioinformatics Team, RIKEN, Japan 
+# Author Rojan Shrestha
+# %%FILENAME%% -description
+
+# system 
+import sys, os
+from ..src import PDBChainWriter  # PDBChainWriter, RemoveHeteroatom 
+
+# biopython
+
+# user-defined modules
+
+class TestPDBParser():
+
+
+if __name__=="__main__":
+
+  if len(sys.argv) != 4:
+    print "Error: please check argument list."
+    sys.exit(0)

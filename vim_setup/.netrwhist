@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/rojan/Dropbox/Work/METSEXT/db'
+let g:netrw_dirhist_2='/Users/rojan/Rojan/Work/GitTempWorkSpace/t/mets_sas_train'
+let g:netrw_dirhist_3='/Users/rojan/Dropbox'
+let g:netrw_dirhist_4='/Users/rojan/Rojan/Work/GitTempWorkSpace/n/fig3_seed_refer_selection/seed_cluster'
+let g:netrw_dirhist_5='/Users/rojan/Desktop/test'
